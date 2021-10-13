@@ -1,5 +1,23 @@
 # Change Log
 
+## 1.9.2
+
+### Patch Changes
+
+- [`126bf17db`](https://github.com/chakra-ui/chakra-ui/commit/126bf17db67d6226e6d48c57ef3b69e5504eaada)
+  [#4823](https://github.com/chakra-ui/chakra-ui/pull/4823) Thanks
+  [@antoniel](https://github.com/antoniel)! - fix escape key down when clicking
+  in overlay
+
+- Updated dependencies
+  [[`c06d242c6`](https://github.com/chakra-ui/chakra-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669)]:
+  - @chakra-ui/utils@1.8.3
+  - @chakra-ui/close-button@1.1.12
+  - @chakra-ui/focus-lock@1.1.11
+  - @chakra-ui/hooks@1.6.1
+  - @chakra-ui/portal@1.2.10
+  - @chakra-ui/transition@1.3.6
+
 ## 1.9.1
 
 ### Patch Changes
