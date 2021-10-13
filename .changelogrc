@@ -1,41 +1,21 @@
-## 05-10-2021
+## 13-10-2021
 
-**Button** `v1.4.4`
+**Radio** `v1.3.11`
 
-- Added missing `@chakra-ui/react-utils` import
+- Add Support for styling the container element based on the radio state
 
-**Slider** `v1.4.0`
+**Popover** `v1.8.5`
 
-- Move hard-coded styles to slider's theme
-- Add support for multithumb slider. We now have `useRangeSlider`, `RangeSlider`
-  and `RangeSlider*` components
+- Fix issue where `computePositionOnMount` didn't work without explict value
 
-```jsx live=false
-<RangeSlider>
-  <RangeSliderTrack>
-    <RangeSliderFilledTrack />
-  </RangeSliderTrack>
-  <RangeSliderThumb index={0} />
-  <RangeSliderThumb index={1} />
-</RangeSlider>
-```
+**Utils** `v1.8.3`
 
-**Transition** `v1.3.5`
+- Fixed iframe bug on firefox when using `getRelatedTarget` function
 
-- Updated transition variants for drawer animations to prevent it from
-  disappearing when placement conditionally changes
+**Modal** `v1.9.2`
 
-**Cli** `v1.5.2`
+- fix escape key down when clicking in overlay
 
-- Fixed an issue where the CLI failed with
-  `SyntaxError: JSON5: invalid character`.
+**Cli** `v1.5.3`
 
-**Theme** `v1.10.3`
-
-- Refactor slider theme from slider.tsx to slider's theme
-
-**Toast** `v1.3.1`
-
-- Allow alerts rendered by useToast and createStandaloneToast to be discovered by
-  role and accessible name (e.g. using Testing Library
-  [ByRole](https://testing-library.com/docs/queries/byrole/)).
+- Fixed an issue where the CLI tokens command exited unexpectedly with: `SyntaxError: Cannot use import statement outside a module`
